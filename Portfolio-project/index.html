@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Ss-Foods |Home</title>
+
+</head>
+
+<body>
+         <!---Header content-->
+     
+    <header class="jumbotron jumbotron-fluid">
+        <div >
+            <a class="text-dark" href="index.html"> <h1><i class="fa fa-leaf fa-lg offset-1"></i> Ss Foods</h1></a>
+        </div>
+    </header>
+    <!----NAvbar elemnts-->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class="container">
+           <a class="navbar-brand" href="index.html"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ssNavbar"><span class="navbar-toggler-icon"></span></button>
+           <div class="collapse navbar-collapse" id="ssNavbar">
+               <ul class="navbar-nav">
+                   <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-sm"></i> Home</a></li>
+                   <li class="nav-item" > <a class="nav-link " href="aboutus.html"><i class="fa fa-info fa-sm p-1"></i>About</a></li>
+                   <li class="nav-item" ><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-sm p-1"></i>Contact</a></li>
+               </ul>
+               <span class="navbar-text ml-auto">
+                   <a type="button" data-toggle="modal" data-target="#loginModal">
+                       <i class="fa fa-sign-in p-2"></i>Login
+                   </a>
+               </span>
+           </div>
+        </div>
+     </nav>
+ 
+     <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email Address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password" >
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1"> Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Body Content-->
+    <div class="container">
+        <div class="row row-content text-center">
+            <div class="col-sm-10 ">
+                <h2>Get your Craving Food in One click!</h2>
+            </div>
+            <div class="col-sm-10 mt-4 ">
+                <p>Order Food from your choice of restaurant. <br> We will deliver to you with best price and quickly</p>
+            </div>
+            <div class="col-sm-10 mt-4">
+                <img class="img-fluid" src="/img/IMG_2088.jpg" width="450">
+            </div>
+        </div>
+    </div>
+
+    <!---Footer---->
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+            		<ul class="list-unstyled">
+                        <li><a class="text-info" href="index.html">Home</a></li>
+                        <li><a class="text-info" href="aboutus.html">About</a></li>
+                        <li><a class="text-info" href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                	<h5 >Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h5>Contact</h5>
+                    <a role="button" class="text-info" href="tel:+7186744990"><i class="fa fa-phone fa-lg text-info"></i> Tel: tel:+7186744990</a>
+                    <br>
+                    <a role="button" class="text-info" href="salmoonsamuel08@gmail.com"> <i class="fa fa-envelope fa-lg text-info"></i>Email: salmoonsamuel08@gmail.com</a>
+                </div>                
+           </div>
+        </div>
+    </footer>
+ 
+     
+    
+    
+</body>
+</html>

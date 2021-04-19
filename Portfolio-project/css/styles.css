@@ -1,0 +1,25 @@
+body{
+    background-color:  rgb(236, 196, 143);
+    font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron{
+    background-color: rgb(202, 174, 120);
+    padding: 30px;
+}
+/* .navbar {
+    background-color: #9dd686; 
+} */
+
+.row-content{
+    margin-top: 6rem;
+}  
+
+.site-footer{
+    padding: 5px 0;
+    margin-top: 100px;
+    background-color: rgb(202, 174, 120);
+}
+img{
+    border-radius: 30px;
+}
